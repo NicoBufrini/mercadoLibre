@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main{
+    width: 90%;
+    max-width: 90%;
+}
+
+header{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+.logo{
+    width: 90px;
+    height: 80%;
+    padding-left: 10px;
+}
+
+.btn-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding-right: 20px;
+    cursor: pointer;
+    filter: drop-shadow(0.5px 0.5px);
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+  
+#search-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+#search-bar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    height: 35%;
+  }
+
+.product {    
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product h2 {
+    color: black;
+    transition: color 0.2s;
+}
+
+.product h2:hover {
+    color: #3483fa;
+    transition: color 0.2s;
+}
+
+.product img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-details {
+    background-color: white;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.productos_carrito {
+    padding-top: 10px;
+}
+
+.productos_carrito img {
+    padding-left: 25px;
+}
+
+.producto_carrito {
+    padding-bottom: 10px;
+    border-bottom: #ccc 3px solid;
+    padding-left: 25px;
+}
+
+.product-details img {
+    text-align: center;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}  
+
+.back-button{
+    border: 1px solid rgb(197, 196, 196);
+    font-size: 30px;
+    left: 1%;    
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+}
+
+.details-button {
+    cursor: pointer;
+}
+
+#main-content{
+    position:absolute;
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0px 35px 0px 35px;
+}
